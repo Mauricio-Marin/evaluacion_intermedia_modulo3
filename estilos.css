@@ -1,0 +1,85 @@
+
+body{
+    box-shadow: 0px 0px 10px #000000;
+    border-style: groove;
+    padding: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url('https://www.itl.cat/pngfile/big/161-1619669_texture-texture-wallpaper-background-wallpaper-blue-imagen-para.jpg');
+    font-size: 80%;
+    float: none;    
+    width: 100%; /* El ancho es 100%, para telefonos */    
+}
+@media screen and (min-width: 800px) {
+     .body1{
+    width: 80%; 
+    float: left; 
+    font-size: 100%;
+   
+    }
+    }
+
+ @media screen and (min-width: 1025px) {
+        .body2{
+       width: 60%;
+       float: left; 
+       font-size: 120%;
+       background: url('https://www.itl.cat/pngfile/big/161-1619669_texture-texture-wallpaper-background-wallpaper-blue-imagen-para.jpg');
+    
+     }
+     }    
+p{
+    margin-right: 65px;
+}
+th, td{
+    text-align: center;
+   }
+
+input{
+    padding-right: 100px;
+    display: flex;
+
+}
+table{
+    width: 80%;
+    height: 80%;
+    font-size: 2vw;
+}
+
+
+
+.cabecera{
+    background-color: rgb(57, 65, 65);
+    border-radius: 10px;
+    color: beige;
+    font-size: larger;
+    text-align: center;
+    
+    box-shadow: 0px 0px 10px #ffffff;
+}
+.navegacion{
+    background-color: rgb(196, 255, 119);
+    border-radius: 10px;
+    color: rgb(57, 45, 216);
+    text-align:justify;
+    font-size: larger;
+    
+    box-shadow: 0px 0px 10px #020202;
+}
+.principal{
+    background-color:rgb(56, 55, 97) ;
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+    text-align:justify;
+    font-size: larger;
+    
+    box-shadow: 0px 0px 10px #fffefe;
+    
+}
+.pie{
+    background-color:rgb(83, 83, 83) ;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    font-size: larger;
+    box-shadow: 0px 0px 10px #ffffff;
+}
